@@ -1,0 +1,26 @@
+{
+  "name": "app-basic-node",
+  "version": "1.0.0",
+  "description": "globant training basics",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "start:prod": "NODE_ENV=production nodemon server.js",
+    "debug": "ndb server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.16.4",
+    "mongoose": "^5.13.22",
+    "morgan": "^1.10.0",
+    "ndb": "^0.2.4",
+    "nodemon": "^3.1.2",
+    "validator": "^13.12.0"
+  },
+  "engines": {
+    "node": ">=10.0.0"
+  }
+}
